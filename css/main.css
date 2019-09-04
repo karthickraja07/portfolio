@@ -1,8 +1,12 @@
 /*------------------------------------------------
 	Base Styles
 -------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+
 body {
-  font-family: "Libre Baskerville", serif;
+  font-family: 'Bree Serif', serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -244,7 +248,8 @@ textarea, label {
     font-weight: 900;
     text-transform: uppercase; }
   .page-title p {
-    font-size: 16px; }
+    font-size: 16px;
+    color: #506364;	}
   .page-title .title-bg {
     color: rgba(30, 37, 48, 0.07);
     font-size: 158px;
@@ -1332,3 +1337,15 @@ textarea, label {
     padding: 20px; }
   .contact-form .input-field.name {
     margin-right: 0; } }
+
+
+.about_ui{
+	font-family: 'Lobster Two', cursive !important;
+	    color: #113148 !important;
+		    font-size: 25px !important;
+}
+
+
+.next-page,.prev-page{
+	color: #113148 !important;
+}
